@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Simple POS</title>
+        <script src="js/lib/jquery.min.js"></script>
+        <script src="js/lib/angular.min.js"></script>
+        <script src="js/lib/angular-route.min.js"></script>
+        <script src="js/lib/bootstrap.min.js"></script>
+        <script src="js/pos.module.js"></script>
+        <script src="js/pos.config.js"></script>
+        <script src="js/pos-navigation/pos-navigation.module.js"></script>
+        <script src="js/pos-navigation/pos-navigation.component.js"></script>
+        <script src="js/pos-details/pos-details.module.js"></script>
+        <script src="js/pos-details/pos-details.component.js"></script>
+        <script src="js/product-catalog/product-catalog.module.js"></script>
+        <script src="js/product-catalog/product-catalog.component.js"></script>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+        <style>
+            body {
+                padding-top: 50px;
+            }
+
+            .pos-body {
+                padding: 40px 15px;
+            }
+        </style>
+    </head>
+    <body ng-app="posApp">
+        <pos-nav></pos-nav>
+        <div class="container">
+            <div class="pos-body">
+                <div ng-view></div>
+
+                <div class="col-md-12">
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

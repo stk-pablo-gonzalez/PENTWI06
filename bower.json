@@ -1,0 +1,24 @@
+{
+  "name": "pentwi06",
+  "description": "Introduction to AngularJS",
+  "main": "app.js",
+  "authors": [
+    "Pablo Gonzalez (PAGR)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/stk-pablo-gonzalez/PENTWI06",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "angular": "1.6.9",
+    "angular-route": "1.6.9",
+    "angular-mocks": "1.6.9"
+  }
+}
