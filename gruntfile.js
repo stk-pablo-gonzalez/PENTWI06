@@ -32,6 +32,12 @@ module.exports = function(grunt) {
                         cwd: 'bower_components/angular-mocks',
                         src: 'angular-mocks.js',
                         dest: 'public/js/lib'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'bower_components/angular-resource',
+                        src: 'angular-resource.min.js',
+                        dest: 'public/js/lib'
                     }
                 ]
             },

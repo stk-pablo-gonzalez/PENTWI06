@@ -1,1 +1,1 @@
-angular.module('productCatalog', []);
+angular.module('productCatalog', ['core.product']);

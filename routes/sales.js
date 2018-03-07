@@ -15,6 +15,7 @@ var _inventory = require('../services/inventoryService');
 //     totalAmount: 282.8
 // }
 routes.post('/', function(request, response) {
+    console.log(request.body);
     var salesObj = request.body;
     var uow = [];
 
