@@ -1,1 +1,1 @@
-angular.module('posDetails', ['core.pos']);
+angular.module('posDetails', ['core.pos', 'core.product']);
